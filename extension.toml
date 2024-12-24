@@ -1,0 +1,7 @@
+id = "vitesse-theme-patched"
+name = "Vitesse Theme Patched"
+version = "0.0.1"
+schema_version = 2
+authors = ["Colin Lienard <contact@colin-lienard.fr>"]
+description = "Vitesse Theme that better fits Zed"
+repository = "https://github.com/colinlienard/zed-vitesse-theme-patched"
