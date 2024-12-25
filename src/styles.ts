@@ -2,6 +2,8 @@ import { VitesseThemes } from './colors';
 
 type StyleArgs = ['dark' | 'light'] | ['dark' | 'light', 'soft' | 'black'];
 
+const UNSET = '#FF00FF'; // Not set yet
+
 export function getStyle(...args: StyleArgs) {
 	const color = colorGetter(...args);
 	return {
@@ -26,18 +28,18 @@ export function getStyle(...args: StyleArgs) {
 		// "ghost_element.selected": "#454a56ff",
 		// "ghost_element.disabled": "#2e343eff",
 		text: color('foreground'),
-		// "text.muted": "#a9afbcff",
-		// "text.placeholder": "#878a98ff",
-		// "text.disabled": "#878a98ff",
-		// "text.accent": "#74ade8ff",
+		'text.muted': color('secondaryForeground'),
+		'text.placeholder': color('ignored'),
+		'text.disabled': color('ignored'),
+		'text.accent': color('primary'),
 		icon: color('foreground'),
-		// "icon.muted": "#a9afbcff",
-		// "icon.disabled": "#878a98ff",
-		// "icon.placeholder": "#a9afbcff",
-		// "icon.accent": "#74ade8ff",
+		'icon.muted': UNSET,
+		'icon.disabled': UNSET,
+		'icon.placeholder': UNSET,
+		'icon.accent': UNSET,
 		'status_bar.background': color('background'),
 		'title_bar.background': color('background'),
-		'title_bar.inactive_background': '#FF0000',
+		'title_bar.inactive_background': UNSET,
 		'toolbar.background': color('activeBackground'),
 		'tab_bar.background': color('background'),
 		'tab.inactive_background': color('background'),
@@ -62,15 +64,15 @@ export function getStyle(...args: StyleArgs) {
 		'editor.line_number': color('foreground'),
 		'editor.active_line_number': color('activeForeground'),
 		'editor.invisible': color('selectionBackground'),
-		'editor.wrap_guide': '#FF0000',
-		'editor.active_wrap_guide': '#FF0000',
+		'editor.wrap_guide': UNSET,
+		'editor.active_wrap_guide': UNSET,
 		'editor.document_highlight.read_background': color('activeBackground'),
-		'editor.document_highlight.write_background': '#FF0000',
+		'editor.document_highlight.write_background': UNSET,
 
 		'terminal.background': color('background'),
 		'terminal.foreground': color('foreground'),
-		'terminal.bright_foreground': '#FF0000',
-		'terminal.dim_foreground': '#FF0000',
+		'terminal.bright_foreground': UNSET,
+		'terminal.dim_foreground': UNSET,
 		'terminal.ansi.black': args[0] === 'dark' ? color('foreground') : color('background'),
 		'terminal.ansi.bright_black': args[0] === 'dark' ? '#777777' : '#aaaaaa',
 		'terminal.ansi.dim_black': args[0] === 'dark' ? '#777777' : '#aaaaaa',
@@ -108,10 +110,10 @@ export function getStyle(...args: StyleArgs) {
 		error: color('red'),
 		'error.background': null,
 		'error.border': null,
-		hidden: '#FF0000',
+		hidden: UNSET,
 		'hidden.background': null,
 		'hidden.border': null,
-		hint: color('green'),
+		hint: color('punctuation'),
 		'hint.background': null,
 		'hint.border': null,
 		ignored: color('ignored'),
@@ -123,16 +125,16 @@ export function getStyle(...args: StyleArgs) {
 		modified: color('blue'),
 		'modified.background': null,
 		'modified.border': null,
-		predictive: '#FF0000',
+		predictive: color('punctuation'),
 		'predictive.background': null,
 		'predictive.border': null,
-		renamed: '#74ade8ff',
-		'renamed.background': '#74ade81a',
-		'renamed.border': '#293b5bff',
+		renamed: color('cyan'),
+		'renamed.background': 'null',
+		'renamed.border': 'null',
 		success: color('green'),
 		'success.background': null,
 		'success.border': null,
-		unreachable: '#FF0000',
+		unreachable: UNSET,
 		'unreachable.background': null,
 		'unreachable.border': null,
 		warning: color('orange'),
@@ -145,41 +147,6 @@ export function getStyle(...args: StyleArgs) {
 				background: color('foreground'),
 				selection: color('selectionBackground'),
 			},
-			//   {
-			//     cursor: "#be5046ff",
-			//     background: "#be5046ff",
-			//     selection: "#be50463d",
-			//   },
-			//   {
-			//     cursor: "#bf956aff",
-			//     background: "#bf956aff",
-			//     selection: "#bf956a3d",
-			//   },
-			//   {
-			//     cursor: "#b477cfff",
-			//     background: "#b477cfff",
-			//     selection: "#b477cf3d",
-			//   },
-			//   {
-			//     cursor: "#6eb4bfff",
-			//     background: "#6eb4bfff",
-			//     selection: "#6eb4bf3d",
-			//   },
-			//   {
-			//     cursor: "#d07277ff",
-			//     background: "#d07277ff",
-			//     selection: "#d072773d",
-			//   },
-			//   {
-			//     cursor: "#dec184ff",
-			//     background: "#dec184ff",
-			//     selection: "#dec1843d",
-			//   },
-			//   {
-			//     cursor: "#a1c181ff",
-			//     background: "#a1c181ff",
-			//     selection: "#a1c1813d",
-			//   },
 		],
 
 		syntax: {
@@ -189,20 +156,20 @@ export function getStyle(...args: StyleArgs) {
 			'comment.doc': syntax(color('comment')),
 			constant: syntax(color('constant')),
 			constructor: syntax(color('keyword')),
-			embedded: syntax('#FF0000'),
-			emphasis: syntax('#FF0000'),
-			'emphasis.strong': syntax('#FF0000'),
-			enum: syntax('#FF0000'),
+			embedded: syntax(UNSET),
+			emphasis: syntax(UNSET),
+			'emphasis.strong': syntax(UNSET),
+			enum: syntax(UNSET),
 			function: syntax(color('function')),
-			hint: syntax('#FF0000'),
+			hint: syntax(UNSET),
 			keyword: syntax(color('operator')),
 			label: syntax(color('keyword')),
-			link_text: syntax('#FF0000'),
-			link_uri: syntax('#FF0000'),
+			link_text: syntax(UNSET),
+			link_uri: syntax(UNSET),
 			number: syntax(color('number')),
 			operator: syntax(color('operator')),
-			predictive: syntax('#FF0000'),
-			preproc: syntax('#FF0000'),
+			predictive: syntax(UNSET),
+			preproc: syntax(UNSET),
 			primary: syntax(color('primary')),
 			property: syntax(color('property')),
 			punctuation: syntax(color('punctuation')),
@@ -215,13 +182,13 @@ export function getStyle(...args: StyleArgs) {
 			'string.regex': syntax(color('string')),
 			'string.special': syntax(color('string')),
 			'string.special.symbol': syntax(color('string')),
-			tag: syntax('#FF0000'),
-			'text.literal': syntax('#FF0000'),
-			title: syntax('#FF0000'),
+			tag: syntax(UNSET),
+			'text.literal': syntax(UNSET),
+			title: syntax(UNSET),
 			type: syntax(color('type')),
 			variable: syntax(color('variable')),
 			'variable.special': syntax(color('variable')),
-			variant: syntax('#FF0000'),
+			variant: syntax(UNSET),
 		},
 	};
 }
@@ -234,7 +201,11 @@ function colorGetter(...args: StyleArgs) {
 				key = variantKey as keyof typeof VitesseThemes;
 			}
 		}
-		return VitesseThemes[key][args[0] === 'dark' ? 0 : 1];
+		const color = VitesseThemes[key];
+		if (typeof color === 'string') {
+			return color;
+		}
+		return color[args[0] === 'dark' ? 0 : 1];
 	};
 }
 
