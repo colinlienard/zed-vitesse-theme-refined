@@ -1,0 +1,12 @@
+{
+	"name": "zed-vitesse-theme-patched",
+	"private": "true",
+	"scripts": {
+		"build": "tsx src",
+		"watch": "tsx --watch src"
+	},
+	"devDependencies": {
+		"@types/node": "^22.10.2",
+		"tsx": "^4.19.2"
+	}
+}
