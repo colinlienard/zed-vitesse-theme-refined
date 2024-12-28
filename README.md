@@ -1,1 +1,1 @@
-# Zed Vitesse Theme Patched
+# Zed Vitesse Theme Refined
