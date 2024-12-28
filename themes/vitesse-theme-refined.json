@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "name": "Vitesse Theme Patched",
+  "name": "Vitesse Theme Refined",
   "author": "Colin Lienard",
   "themes": [
     {
-      "name": "Vitesse Patched Dark",
+      "name": "Vitesse Refined Dark",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -653,7 +653,7 @@
       }
     },
     {
-      "name": "Vitesse Patched Black",
+      "name": "Vitesse Refined Black",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -1302,7 +1302,7 @@
       }
     },
     {
-      "name": "Vitesse Patched Light",
+      "name": "Vitesse Refined Light",
       "appearance": "light",
       "style": {
         "background.appearance": "opaque",
@@ -1951,7 +1951,7 @@
       }
     },
     {
-      "name": "Vitesse Patched Dark Soft",
+      "name": "Vitesse Refined Dark Soft",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -2600,7 +2600,7 @@
       }
     },
     {
-      "name": "Vitesse Patched Light Soft",
+      "name": "Vitesse Refined Light Soft",
       "appearance": "light",
       "style": {
         "background.appearance": "opaque",

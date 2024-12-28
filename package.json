@@ -1,5 +1,5 @@
 {
-	"name": "zed-vitesse-theme-patched",
+	"name": "zed-vitesse-theme-refined",
 	"private": "true",
 	"scripts": {
 		"build": "tsx src",

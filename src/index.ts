@@ -3,35 +3,35 @@ import { getStyle } from './styles';
 
 const theme = {
 	$schema: 'https://zed.dev/schema/themes/v0.2.0.json',
-	name: 'Vitesse Theme Patched',
+	name: 'Vitesse Theme Refined',
 	author: 'Colin Lienard',
 	themes: [
 		{
-			name: 'Vitesse Patched Dark',
+			name: 'Vitesse Refined Dark',
 			appearance: 'dark',
 			style: getStyle('dark'),
 		},
 		{
-			name: 'Vitesse Patched Black',
+			name: 'Vitesse Refined Black',
 			appearance: 'dark',
 			style: getStyle('dark', 'black'),
 		},
 		{
-			name: 'Vitesse Patched Light',
+			name: 'Vitesse Refined Light',
 			appearance: 'light',
 			style: getStyle('light'),
 		},
 		{
-			name: 'Vitesse Patched Dark Soft',
+			name: 'Vitesse Refined Dark Soft',
 			appearance: 'dark',
 			style: getStyle('dark', 'soft'),
 		},
 		{
-			name: 'Vitesse Patched Light Soft',
+			name: 'Vitesse Refined Light Soft',
 			appearance: 'light',
 			style: getStyle('light', 'soft'),
 		},
 	],
 };
 
-fs.writeFileSync('./themes/vitesse-theme-patched.json', JSON.stringify(theme, null, 2));
+fs.writeFileSync('./themes/vitesse-theme-refined.json', JSON.stringify(theme, null, 2));
