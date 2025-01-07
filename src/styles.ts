@@ -62,7 +62,7 @@ export function getStyle(...args: StyleArgs) {
 		'editor.background': color('background'),
 		'editor.gutter.background': color('background'),
 		'editor.subheader.background': color('background'),
-		'editor.active_line.background': color('background'),
+		'editor.active_line.background': color('activeBackground'),
 		'editor.highlighted_line.background': color('background'),
 		'editor.line_number': color('ignored'),
 		'editor.active_line_number': color('activeForeground'),
