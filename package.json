@@ -1,13 +1,13 @@
 {
 	"name": "zed-vitesse-theme-refined",
-	"private": "true",
+	"private": true,
 	"scripts": {
 		"build": "tsx src",
 		"watch": "tsx --watch src"
 	},
 	"devDependencies": {
-		"@types/node": "^22.10.5",
-		"tsx": "^4.19.2",
-		"typescript": "^5.7.2"
+		"@types/node": "^22.14.0",
+		"tsx": "^4.19.3",
+		"typescript": "^5.8.2"
 	}
 }
