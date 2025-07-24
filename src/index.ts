@@ -1,4 +1,3 @@
-import fs from 'node:fs';
 import { getStyle } from './styles';
 
 const theme = {
@@ -34,4 +33,5 @@ const theme = {
 	],
 };
 
-fs.writeFileSync('./themes/vitesse-theme-refined.json', JSON.stringify(theme, null, 2));
+await Bun.write('./themes/vitesse-theme-refined.json', JSON.stringify(theme, null, 2));
+console.log('Theme generated');
