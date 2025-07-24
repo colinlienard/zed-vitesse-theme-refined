@@ -151,6 +151,8 @@
         "version_control.deleted": "#cb7676",
         "version_control.renamed": "#e6cc77",
         "version_control.conflict": "#d4976c",
+        "version_control.conflict_marker.ours": "#4d93754D",
+        "version_control.conflict_marker.theirs": "#6394bf4D",
         "version_control.ignored": "#dedcd550",
         "warning": "#d4976c",
         "warning.background": "#d4976c4D",
@@ -434,7 +436,7 @@
             "font_weight": null
           },
           "namespace": {
-            "color": "#dbd7caee",
+            "color": "#5d99a9",
             "font_style": null,
             "font_weight": null
           },
@@ -824,6 +826,8 @@
         "version_control.deleted": "#cb7676",
         "version_control.renamed": "#e6cc77",
         "version_control.conflict": "#d4976c",
+        "version_control.conflict_marker.ours": "#4d93754D",
+        "version_control.conflict_marker.theirs": "#6394bf4D",
         "version_control.ignored": "#dedcd550",
         "warning": "#d4976c",
         "warning.background": "#d4976c4D",
@@ -1107,7 +1111,7 @@
             "font_weight": null
           },
           "namespace": {
-            "color": "#dbd7cacc",
+            "color": "#5d99a9",
             "font_style": null,
             "font_weight": null
           },
@@ -1497,6 +1501,8 @@
         "version_control.deleted": "#ab5959",
         "version_control.renamed": "#bda437",
         "version_control.conflict": "#a65e2b",
+        "version_control.conflict_marker.ours": "#1e754f4D",
+        "version_control.conflict_marker.theirs": "#296aa34D",
         "version_control.ignored": "#393a3450",
         "warning": "#a65e2b",
         "warning.background": "#a65e2b4D",
@@ -1780,7 +1786,7 @@
             "font_weight": null
           },
           "namespace": {
-            "color": "#393a34",
+            "color": "#2e808f",
             "font_style": null,
             "font_weight": null
           },
@@ -2170,6 +2176,8 @@
         "version_control.deleted": "#cb7676",
         "version_control.renamed": "#e6cc77",
         "version_control.conflict": "#d4976c",
+        "version_control.conflict_marker.ours": "#4d93754D",
+        "version_control.conflict_marker.theirs": "#6394bf4D",
         "version_control.ignored": "#dedcd550",
         "warning": "#d4976c",
         "warning.background": "#d4976c4D",
@@ -2453,7 +2461,7 @@
             "font_weight": null
           },
           "namespace": {
-            "color": "#dbd7caee",
+            "color": "#5d99a9",
             "font_style": null,
             "font_weight": null
           },
@@ -2843,6 +2851,8 @@
         "version_control.deleted": "#ab5959",
         "version_control.renamed": "#bda437",
         "version_control.conflict": "#a65e2b",
+        "version_control.conflict_marker.ours": "#1e754f4D",
+        "version_control.conflict_marker.theirs": "#296aa34D",
         "version_control.ignored": "#393a3450",
         "warning": "#a65e2b",
         "warning.background": "#a65e2b4D",
@@ -3126,7 +3136,7 @@
             "font_weight": null
           },
           "namespace": {
-            "color": "#393a34",
+            "color": "#2e808f",
             "font_style": null,
             "font_weight": null
           },
