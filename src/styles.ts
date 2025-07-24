@@ -49,6 +49,8 @@ export function getStyle(...args: StyleArgs) {
 		'panel.indent_guide': color('activeBackground'),
 		'panel.indent_guide_active': color('selectionBackground'),
 		'panel.indent_guide_hover': color('selectionBackground'),
+		'panel.overlay_background': color('background'),
+		'panel.overlay_hover': color('activeBackground'),
 		'pane.focused_border': color('border'),
 		'pane_group.border': color('border'),
 		'scrollbar.thumb.background': color('selectionBackground'),
