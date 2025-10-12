@@ -58,7 +58,7 @@ export function getStyle(...args: StyleArgs) {
 		'scrollbar.thumb.border': color('border'),
 		'scrollbar.track.background': color('background'),
 		'scrollbar.track.border': color('border'),
-		'link_text.hover': color('primary'),
+		'link_text.hover': color('blue'),
 
 		'editor.foreground': color('foreground'),
 		'editor.background': color('background'),
@@ -163,7 +163,7 @@ export function getStyle(...args: StyleArgs) {
 			{
 				cursor: color('foreground'),
 				background: color('foreground'),
-				selection: color('selectionBackground'),
+				selection: args[0] === 'dark' ? '#363636' : '#dcdbd6',
 			},
 		],
 
@@ -239,10 +239,13 @@ export function getStyle(...args: StyleArgs) {
 			'punctuation.list_marker': syntax(color('punctuation')),
 			'punctuation.special': syntax(color('punctuation')),
 			'punctuation.special.symbol': syntax(color('punctuation')),
+			selector: syntax(color('variable')),
+			'selector.pseudo': syntax(color('function')),
 			string: syntax(color('string')),
 			'string.doc': syntax(color('string')),
 			'string.documentation': syntax(color('string')),
 			'string.escape': syntax(color('class')),
+			'punctuation.markup': syntax(color('punctuation')),
 			'string.regex': syntax(color('regex')),
 			'string.regexp': syntax(color('regex')),
 			'string.special': syntax(color('string')),
