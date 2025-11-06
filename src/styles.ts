@@ -55,6 +55,7 @@ export function getStyle(...args: StyleArgs) {
 		'pane_group.border': color('border'),
 		'scrollbar.thumb.background': color('selectionBackground'),
 		'scrollbar.thumb.hover_background': color('selectionBackgroundActive'),
+		'scrollbar.thumb.active_background': color('selectionBackgroundInActive'),
 		'scrollbar.thumb.border': color('border'),
 		'scrollbar.track.background': color('background'),
 		'scrollbar.track.border': color('border'),
@@ -164,6 +165,41 @@ export function getStyle(...args: StyleArgs) {
 				cursor: color('foreground'),
 				background: color('foreground'),
 				selection: args[0] === 'dark' ? '#363636' : '#dcdbd6',
+			},
+			{
+				cursor: color('orange'),
+				background: color('orange'),
+				selection: color('orange', 'semi-transparent'),
+			},
+			{
+				cursor: color('yellow'),
+				background: color('yellow'),
+				selection: color('yellow', 'semi-transparent'),
+			},
+			{
+				cursor: color('green'),
+				background: color('green'),
+				selection: color('green', 'semi-transparent'),
+			},
+			{
+				cursor: color('red'),
+				background: color('red'),
+				selection: color('red', 'semi-transparent'),
+			},
+			{
+				cursor: color('cyan'),
+				background: color('cyan'),
+				selection: color('cyan', 'semi-transparent'),
+			},
+			{
+				cursor: color('blue'),
+				background: color('blue'),
+				selection: color('blue', 'semi-transparent'),
+			},
+			{
+				cursor: color('magenta'),
+				background: color('magenta'),
+				selection: color('magenta', 'semi-transparent'),
 			},
 		],
 

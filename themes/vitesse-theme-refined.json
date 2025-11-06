@@ -57,6 +57,7 @@
         "pane_group.border": "#191919",
         "scrollbar.thumb.background": "#eeeeee18",
         "scrollbar.thumb.hover_background": "#eeeeee18",
+        "scrollbar.thumb.active_background": "#eeeeee10",
         "scrollbar.thumb.border": "#191919",
         "scrollbar.track.background": "#121212",
         "scrollbar.track.border": "#191919",
@@ -162,6 +163,41 @@
             "cursor": "#dbd7caee",
             "background": "#dbd7caee",
             "selection": "#363636"
+          },
+          {
+            "cursor": "#d4976c",
+            "background": "#d4976c",
+            "selection": "#d4976c4D"
+          },
+          {
+            "cursor": "#e6cc77",
+            "background": "#e6cc77",
+            "selection": "#e6cc774D"
+          },
+          {
+            "cursor": "#4d9375",
+            "background": "#4d9375",
+            "selection": "#4d93754D"
+          },
+          {
+            "cursor": "#cb7676",
+            "background": "#cb7676",
+            "selection": "#cb76764D"
+          },
+          {
+            "cursor": "#5eaab5",
+            "background": "#5eaab5",
+            "selection": "#5eaab54D"
+          },
+          {
+            "cursor": "#6394bf",
+            "background": "#6394bf",
+            "selection": "#6394bf4D"
+          },
+          {
+            "cursor": "#d9739f",
+            "background": "#d9739f",
+            "selection": "#d9739f4D"
           }
         ],
         "syntax": {
@@ -747,6 +783,7 @@
         "pane_group.border": "#191919",
         "scrollbar.thumb.background": "#eeeeee18",
         "scrollbar.thumb.hover_background": "#eeeeee18",
+        "scrollbar.thumb.active_background": "#eeeeee10",
         "scrollbar.thumb.border": "#191919",
         "scrollbar.track.background": "#000",
         "scrollbar.track.border": "#191919",
@@ -852,6 +889,41 @@
             "cursor": "#dbd7cacc",
             "background": "#dbd7cacc",
             "selection": "#363636"
+          },
+          {
+            "cursor": "#d4976c",
+            "background": "#d4976c",
+            "selection": "#d4976c4D"
+          },
+          {
+            "cursor": "#e6cc77",
+            "background": "#e6cc77",
+            "selection": "#e6cc774D"
+          },
+          {
+            "cursor": "#4d9375",
+            "background": "#4d9375",
+            "selection": "#4d93754D"
+          },
+          {
+            "cursor": "#cb7676",
+            "background": "#cb7676",
+            "selection": "#cb76764D"
+          },
+          {
+            "cursor": "#5eaab5",
+            "background": "#5eaab5",
+            "selection": "#5eaab54D"
+          },
+          {
+            "cursor": "#6394bf",
+            "background": "#6394bf",
+            "selection": "#6394bf4D"
+          },
+          {
+            "cursor": "#d9739f",
+            "background": "#d9739f",
+            "selection": "#d9739f4D"
           }
         ],
         "syntax": {
@@ -1437,6 +1509,7 @@
         "pane_group.border": "#f0f0f0",
         "scrollbar.thumb.background": "#22222218",
         "scrollbar.thumb.hover_background": "#22222218",
+        "scrollbar.thumb.active_background": "#22222210",
         "scrollbar.thumb.border": "#f0f0f0",
         "scrollbar.track.background": "#ffffff",
         "scrollbar.track.border": "#f0f0f0",
@@ -1542,6 +1615,41 @@
             "cursor": "#393a34",
             "background": "#393a34",
             "selection": "#dcdbd6"
+          },
+          {
+            "cursor": "#a65e2b",
+            "background": "#a65e2b",
+            "selection": "#a65e2b4D"
+          },
+          {
+            "cursor": "#bda437",
+            "background": "#bda437",
+            "selection": "#bda4374D"
+          },
+          {
+            "cursor": "#1e754f",
+            "background": "#1e754f",
+            "selection": "#1e754f4D"
+          },
+          {
+            "cursor": "#ab5959",
+            "background": "#ab5959",
+            "selection": "#ab59594D"
+          },
+          {
+            "cursor": "#2993a3",
+            "background": "#2993a3",
+            "selection": "#2993a34D"
+          },
+          {
+            "cursor": "#296aa3",
+            "background": "#296aa3",
+            "selection": "#296aa34D"
+          },
+          {
+            "cursor": "#a13865",
+            "background": "#a13865",
+            "selection": "#a138654D"
           }
         ],
         "syntax": {
@@ -2127,6 +2235,7 @@
         "pane_group.border": "#252525",
         "scrollbar.thumb.background": "#eeeeee18",
         "scrollbar.thumb.hover_background": "#eeeeee18",
+        "scrollbar.thumb.active_background": "#eeeeee10",
         "scrollbar.thumb.border": "#252525",
         "scrollbar.track.background": "#222",
         "scrollbar.track.border": "#252525",
@@ -2232,6 +2341,41 @@
             "cursor": "#dbd7caee",
             "background": "#dbd7caee",
             "selection": "#363636"
+          },
+          {
+            "cursor": "#d4976c",
+            "background": "#d4976c",
+            "selection": "#d4976c4D"
+          },
+          {
+            "cursor": "#e6cc77",
+            "background": "#e6cc77",
+            "selection": "#e6cc774D"
+          },
+          {
+            "cursor": "#4d9375",
+            "background": "#4d9375",
+            "selection": "#4d93754D"
+          },
+          {
+            "cursor": "#cb7676",
+            "background": "#cb7676",
+            "selection": "#cb76764D"
+          },
+          {
+            "cursor": "#5eaab5",
+            "background": "#5eaab5",
+            "selection": "#5eaab54D"
+          },
+          {
+            "cursor": "#6394bf",
+            "background": "#6394bf",
+            "selection": "#6394bf4D"
+          },
+          {
+            "cursor": "#d9739f",
+            "background": "#d9739f",
+            "selection": "#d9739f4D"
           }
         ],
         "syntax": {
@@ -2817,6 +2961,7 @@
         "pane_group.border": "#E7E5DB",
         "scrollbar.thumb.background": "#22222218",
         "scrollbar.thumb.hover_background": "#22222218",
+        "scrollbar.thumb.active_background": "#22222210",
         "scrollbar.thumb.border": "#E7E5DB",
         "scrollbar.track.background": "#F1F0E9",
         "scrollbar.track.border": "#E7E5DB",
@@ -2922,6 +3067,41 @@
             "cursor": "#393a34",
             "background": "#393a34",
             "selection": "#dcdbd6"
+          },
+          {
+            "cursor": "#a65e2b",
+            "background": "#a65e2b",
+            "selection": "#a65e2b4D"
+          },
+          {
+            "cursor": "#bda437",
+            "background": "#bda437",
+            "selection": "#bda4374D"
+          },
+          {
+            "cursor": "#1e754f",
+            "background": "#1e754f",
+            "selection": "#1e754f4D"
+          },
+          {
+            "cursor": "#ab5959",
+            "background": "#ab5959",
+            "selection": "#ab59594D"
+          },
+          {
+            "cursor": "#2993a3",
+            "background": "#2993a3",
+            "selection": "#2993a34D"
+          },
+          {
+            "cursor": "#296aa3",
+            "background": "#296aa3",
+            "selection": "#296aa34D"
+          },
+          {
+            "cursor": "#a13865",
+            "background": "#a13865",
+            "selection": "#a138654D"
           }
         ],
         "syntax": {
