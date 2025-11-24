@@ -3,7 +3,8 @@
 	"private": true,
 	"scripts": {
 		"build": "bun src",
-		"watch": "bun --watch src"
+		"watch": "bun --watch src",
+		"test": "bun test"
 	},
 	"devDependencies": {
 		"@types/bun": "^1.3.3",
