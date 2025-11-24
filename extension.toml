@@ -1,6 +1,6 @@
 id = "vitesse-theme-refined"
 name = "Vitesse Theme Refined"
-version = "0.2.0"
+version = "0.3.0"
 schema_version = 1
 authors = ["Colin Lienard <contact@colin-lienard.fr>"]
 description = "Vitesse Theme that better fits Zed"
