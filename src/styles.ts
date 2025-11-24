@@ -53,13 +53,17 @@ export function getStyle(...args: StyleArgs) {
 		'panel.overlay_hover': color('activeBackground'),
 		'pane.focused_border': color('border'),
 		'pane_group.border': color('border'),
+
 		'scrollbar.thumb.background': color('selectionBackground'),
 		'scrollbar.thumb.hover_background': color('selectionBackgroundActive'),
 		'scrollbar.thumb.active_background': color('selectionBackgroundInActive'),
 		'scrollbar.thumb.border': color('border'),
 		'scrollbar.track.background': color('background'),
 		'scrollbar.track.border': color('border'),
-		'link_text.hover': color('blue'),
+		'minimap.thumb.background': color('selectionBackground'),
+		'minimap.thumb.hover_background': color('selectionBackgroundActive'),
+		'minimap.thumb.active_background': color('selectionBackgroundInActive'),
+		'minimap.thumb.border': color('border'),
 
 		'editor.foreground': color('foreground'),
 		'editor.background': color('background'),
@@ -78,6 +82,19 @@ export function getStyle(...args: StyleArgs) {
 		'editor.document_highlight.bracket_background': color('selectionBackground'),
 		'editor.indent_guide': color('activeBackground'),
 		'editor.indent_guide_active': color('selectionBackground'),
+		'link_text.hover': color('blue'),
+		'debugger.accent': color('red'),
+		'editor.debugger_active_line.background': color('activeBackground'),
+
+		'vim.mode.text': color('foreground'),
+		'vim.normal.background': color('selectionBackground'),
+		'vim.helix_normal.background': color('selectionBackground'),
+		'vim.visual.background': color('blue', 'semi-transparent'),
+		'vim.visual_line.background': color('blue', 'semi-transparent'),
+		'vim.helix_select.background': color('blue', 'semi-transparent'),
+		'vim.visual_block.background': color('magenta', 'semi-transparent'),
+		'vim.insert.background': color('yellow', 'semi-transparent'),
+		'vim.replace.background': color('red', 'semi-transparent'),
 
 		'terminal.background': color('background'),
 		'terminal.foreground': color('foreground'),
@@ -331,7 +348,6 @@ function colorGetter(...args: StyleArgs) {
 }
 
 function syntax(color: string, ...styles: ('bold' | 'italic')[]) {
-	this;
 	return {
 		color,
 		font_style: styles.includes('italic') ? 'italic' : null,
