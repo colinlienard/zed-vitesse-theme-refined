@@ -63,12 +63,12 @@ jobs:
           git fetch --tags
           git checkout "v${{ steps.get_version.outputs.VERSION }}"
 
-      - uses: huacnlee/zed-extension-action@v1
+      - uses: huacnlee/zed-extension-action@v2
         with:
           extension-name: vitesse-theme-refined
-          push-to: material-extensions/zed-extensions
+          push-to: colinlienard/extensions
           create-pullrequest: true
           commit-message: 'Update Vitesse Theme Refined to v${{ steps.get_version.outputs.VERSION }}'
-          tag-name: v${{ steps.get_version.outputs.VERSION }}
+          tag: v${{ steps.get_version.outputs.VERSION }}
         env:
           COMMITTER_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
