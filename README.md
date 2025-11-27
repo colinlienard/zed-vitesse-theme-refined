@@ -12,25 +12,29 @@ This refined version addresses the limitations of the auto-generated Vitesse the
 
 ---
 
+<div align="center">
+
 ### Dark
 
-![](./assets/screenshot-dark.png)
+![Dark](./assets/screenshot-dark.png)
 
 ### Dark Soft
 
-![](./assets/screenshot-dark-soft.png)
+![Dark Soft](./assets/screenshot-dark-soft.png)
 
 ### Light
 
-![](./assets/screenshot-light.png)
+![Light](./assets/screenshot-light.png)
 
 ### Light Soft
 
-![](./assets/screenshot-light-soft.png)
+![Light Soft](./assets/screenshot-light-soft.png)
 
 ### Black
 
-![](./assets/screenshot-black.png)
+![Black](./assets/screenshot-black.png)
+
+</div>
 
 ---
 
