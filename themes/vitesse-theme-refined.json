@@ -22,8 +22,10 @@
         "element.active": "#eeeeee10",
         "element.selected": "#eeeeee10",
         "element.disabled": "#121212",
+        "element.selection_background": "#dbd7caee4D",
         "drop_target.background": "#eeeeee10",
-        "ghost_element.background": null,
+        "drop_target.border": "#4d9375",
+        "ghost_element.background": "#121212",
         "ghost_element.hover": "#dedcd510",
         "ghost_element.active": "#eeeeee10",
         "ghost_element.selected": "#eeeeee10",
@@ -86,14 +88,14 @@
         "debugger.accent": "#cb7676",
         "editor.debugger_active_line.background": "#181818",
         "vim.mode.text": "#dbd7caee",
-        "vim.normal.background": "#eeeeee18",
-        "vim.helix_normal.background": "#eeeeee18",
-        "vim.visual.background": "#6394bf4D",
-        "vim.visual_line.background": "#6394bf4D",
-        "vim.helix_select.background": "#6394bf4D",
-        "vim.visual_block.background": "#d9739f4D",
-        "vim.insert.background": "#e6cc774D",
-        "vim.replace.background": "#cb76764D",
+        "vim.normal.background": "#121212",
+        "vim.helix_normal.background": "#121212",
+        "vim.visual.background": "#121212",
+        "vim.visual_line.background": "#121212",
+        "vim.helix_select.background": "#121212",
+        "vim.visual_block.background": "#121212",
+        "vim.insert.background": "#121212",
+        "vim.replace.background": "#121212",
         "terminal.background": "#121212",
         "terminal.foreground": "#dbd7caee",
         "terminal.bright_foreground": "#dbd7caee",
@@ -145,7 +147,7 @@
         "ignored.background": "#dedcd5504D",
         "ignored.border": "#dedcd550",
         "info": "#6394bf",
-        "info.background": "#6394bf4D",
+        "info.background": "#eeeeee18",
         "info.border": "#6394bf",
         "modified": "#6394bf",
         "modified.background": "#6394bf4D",
@@ -195,11 +197,6 @@
             "selection": "#4d93754D"
           },
           {
-            "cursor": "#cb7676",
-            "background": "#cb7676",
-            "selection": "#cb76764D"
-          },
-          {
             "cursor": "#5eaab5",
             "background": "#5eaab5",
             "selection": "#5eaab54D"
@@ -213,6 +210,11 @@
             "cursor": "#d9739f",
             "background": "#d9739f",
             "selection": "#d9739f4D"
+          },
+          {
+            "cursor": "#cb7676",
+            "background": "#cb7676",
+            "selection": "#cb76764D"
           }
         ],
         "syntax": {
@@ -541,6 +543,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "property.json_key": {
+            "color": "#b8a965",
+            "font_style": null,
+            "font_weight": null
+          },
           "punctuation": {
             "color": "#666666",
             "font_style": null,
@@ -552,6 +559,11 @@
             "font_weight": null
           },
           "punctuation.delimiter": {
+            "color": "#666666",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
             "color": "#666666",
             "font_style": null,
             "font_weight": null
@@ -763,8 +775,10 @@
         "element.active": "#eeeeee10",
         "element.selected": "#eeeeee10",
         "element.disabled": "#000",
+        "element.selection_background": "#dbd7cacc4D",
         "drop_target.background": "#eeeeee10",
-        "ghost_element.background": null,
+        "drop_target.border": "#4d9375",
+        "ghost_element.background": "#000",
         "ghost_element.hover": "#dedcd510",
         "ghost_element.active": "#eeeeee10",
         "ghost_element.selected": "#eeeeee10",
@@ -827,14 +841,14 @@
         "debugger.accent": "#cb7676",
         "editor.debugger_active_line.background": "#121212",
         "vim.mode.text": "#dbd7cacc",
-        "vim.normal.background": "#eeeeee18",
-        "vim.helix_normal.background": "#eeeeee18",
-        "vim.visual.background": "#6394bf4D",
-        "vim.visual_line.background": "#6394bf4D",
-        "vim.helix_select.background": "#6394bf4D",
-        "vim.visual_block.background": "#d9739f4D",
-        "vim.insert.background": "#e6cc774D",
-        "vim.replace.background": "#cb76764D",
+        "vim.normal.background": "#000",
+        "vim.helix_normal.background": "#000",
+        "vim.visual.background": "#000",
+        "vim.visual_line.background": "#000",
+        "vim.helix_select.background": "#000",
+        "vim.visual_block.background": "#000",
+        "vim.insert.background": "#000",
+        "vim.replace.background": "#000",
         "terminal.background": "#000",
         "terminal.foreground": "#dbd7cacc",
         "terminal.bright_foreground": "#dbd7cacc",
@@ -886,7 +900,7 @@
         "ignored.background": "#dedcd5504D",
         "ignored.border": "#dedcd550",
         "info": "#6394bf",
-        "info.background": "#6394bf4D",
+        "info.background": "#eeeeee18",
         "info.border": "#6394bf",
         "modified": "#6394bf",
         "modified.background": "#6394bf4D",
@@ -936,11 +950,6 @@
             "selection": "#4d93754D"
           },
           {
-            "cursor": "#cb7676",
-            "background": "#cb7676",
-            "selection": "#cb76764D"
-          },
-          {
             "cursor": "#5eaab5",
             "background": "#5eaab5",
             "selection": "#5eaab54D"
@@ -954,6 +963,11 @@
             "cursor": "#d9739f",
             "background": "#d9739f",
             "selection": "#d9739f4D"
+          },
+          {
+            "cursor": "#cb7676",
+            "background": "#cb7676",
+            "selection": "#cb76764D"
           }
         ],
         "syntax": {
@@ -1282,6 +1296,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "property.json_key": {
+            "color": "#b8a965",
+            "font_style": null,
+            "font_weight": null
+          },
           "punctuation": {
             "color": "#444444",
             "font_style": null,
@@ -1293,6 +1312,11 @@
             "font_weight": null
           },
           "punctuation.delimiter": {
+            "color": "#444444",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
             "color": "#444444",
             "font_style": null,
             "font_weight": null
@@ -1504,8 +1528,10 @@
         "element.active": "#22222210",
         "element.selected": "#22222210",
         "element.disabled": "#ffffff",
+        "element.selection_background": "#393a344D",
         "drop_target.background": "#22222210",
-        "ghost_element.background": null,
+        "drop_target.border": "#1c6b48",
+        "ghost_element.background": "#ffffff",
         "ghost_element.hover": "#393a3410",
         "ghost_element.active": "#22222210",
         "ghost_element.selected": "#22222210",
@@ -1568,14 +1594,14 @@
         "debugger.accent": "#ab5959",
         "editor.debugger_active_line.background": "#f7f7f7",
         "vim.mode.text": "#393a34",
-        "vim.normal.background": "#22222218",
-        "vim.helix_normal.background": "#22222218",
-        "vim.visual.background": "#296aa34D",
-        "vim.visual_line.background": "#296aa34D",
-        "vim.helix_select.background": "#296aa34D",
-        "vim.visual_block.background": "#a138654D",
-        "vim.insert.background": "#bda4374D",
-        "vim.replace.background": "#ab59594D",
+        "vim.normal.background": "#ffffff",
+        "vim.helix_normal.background": "#ffffff",
+        "vim.visual.background": "#ffffff",
+        "vim.visual_line.background": "#ffffff",
+        "vim.helix_select.background": "#ffffff",
+        "vim.visual_block.background": "#ffffff",
+        "vim.insert.background": "#ffffff",
+        "vim.replace.background": "#ffffff",
         "terminal.background": "#ffffff",
         "terminal.foreground": "#393a34",
         "terminal.bright_foreground": "#393a34",
@@ -1627,7 +1653,7 @@
         "ignored.background": "#393a34504D",
         "ignored.border": "#393a3450",
         "info": "#296aa3",
-        "info.background": "#296aa34D",
+        "info.background": "#22222218",
         "info.border": "#296aa3",
         "modified": "#296aa3",
         "modified.background": "#296aa34D",
@@ -1677,11 +1703,6 @@
             "selection": "#1e754f4D"
           },
           {
-            "cursor": "#ab5959",
-            "background": "#ab5959",
-            "selection": "#ab59594D"
-          },
-          {
             "cursor": "#2993a3",
             "background": "#2993a3",
             "selection": "#2993a34D"
@@ -1695,6 +1716,11 @@
             "cursor": "#a13865",
             "background": "#a13865",
             "selection": "#a138654D"
+          },
+          {
+            "cursor": "#ab5959",
+            "background": "#ab5959",
+            "selection": "#ab59594D"
           }
         ],
         "syntax": {
@@ -2023,6 +2049,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "property.json_key": {
+            "color": "#998418",
+            "font_style": null,
+            "font_weight": null
+          },
           "punctuation": {
             "color": "#999999",
             "font_style": null,
@@ -2034,6 +2065,11 @@
             "font_weight": null
           },
           "punctuation.delimiter": {
+            "color": "#999999",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
             "color": "#999999",
             "font_style": null,
             "font_weight": null
@@ -2245,8 +2281,10 @@
         "element.active": "#eeeeee10",
         "element.selected": "#eeeeee10",
         "element.disabled": "#222",
+        "element.selection_background": "#dbd7caee4D",
         "drop_target.background": "#eeeeee10",
-        "ghost_element.background": null,
+        "drop_target.border": "#4d9375",
+        "ghost_element.background": "#222",
         "ghost_element.hover": "#dedcd510",
         "ghost_element.active": "#eeeeee10",
         "ghost_element.selected": "#eeeeee10",
@@ -2309,14 +2347,14 @@
         "debugger.accent": "#cb7676",
         "editor.debugger_active_line.background": "#292929",
         "vim.mode.text": "#dbd7caee",
-        "vim.normal.background": "#eeeeee18",
-        "vim.helix_normal.background": "#eeeeee18",
-        "vim.visual.background": "#6394bf4D",
-        "vim.visual_line.background": "#6394bf4D",
-        "vim.helix_select.background": "#6394bf4D",
-        "vim.visual_block.background": "#d9739f4D",
-        "vim.insert.background": "#e6cc774D",
-        "vim.replace.background": "#cb76764D",
+        "vim.normal.background": "#222",
+        "vim.helix_normal.background": "#222",
+        "vim.visual.background": "#222",
+        "vim.visual_line.background": "#222",
+        "vim.helix_select.background": "#222",
+        "vim.visual_block.background": "#222",
+        "vim.insert.background": "#222",
+        "vim.replace.background": "#222",
         "terminal.background": "#222",
         "terminal.foreground": "#dbd7caee",
         "terminal.bright_foreground": "#dbd7caee",
@@ -2368,7 +2406,7 @@
         "ignored.background": "#dedcd5504D",
         "ignored.border": "#dedcd550",
         "info": "#6394bf",
-        "info.background": "#6394bf4D",
+        "info.background": "#eeeeee18",
         "info.border": "#6394bf",
         "modified": "#6394bf",
         "modified.background": "#6394bf4D",
@@ -2418,11 +2456,6 @@
             "selection": "#4d93754D"
           },
           {
-            "cursor": "#cb7676",
-            "background": "#cb7676",
-            "selection": "#cb76764D"
-          },
-          {
             "cursor": "#5eaab5",
             "background": "#5eaab5",
             "selection": "#5eaab54D"
@@ -2436,6 +2469,11 @@
             "cursor": "#d9739f",
             "background": "#d9739f",
             "selection": "#d9739f4D"
+          },
+          {
+            "cursor": "#cb7676",
+            "background": "#cb7676",
+            "selection": "#cb76764D"
           }
         ],
         "syntax": {
@@ -2764,6 +2802,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "property.json_key": {
+            "color": "#b8a965",
+            "font_style": null,
+            "font_weight": null
+          },
           "punctuation": {
             "color": "#666666",
             "font_style": null,
@@ -2775,6 +2818,11 @@
             "font_weight": null
           },
           "punctuation.delimiter": {
+            "color": "#666666",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
             "color": "#666666",
             "font_style": null,
             "font_weight": null
@@ -2986,8 +3034,10 @@
         "element.active": "#22222210",
         "element.selected": "#22222210",
         "element.disabled": "#F1F0E9",
+        "element.selection_background": "#393a344D",
         "drop_target.background": "#22222210",
-        "ghost_element.background": null,
+        "drop_target.border": "#1c6b48",
+        "ghost_element.background": "#F1F0E9",
         "ghost_element.hover": "#393a3410",
         "ghost_element.active": "#22222210",
         "ghost_element.selected": "#22222210",
@@ -3050,14 +3100,14 @@
         "debugger.accent": "#ab5959",
         "editor.debugger_active_line.background": "#E7E5DB",
         "vim.mode.text": "#393a34",
-        "vim.normal.background": "#22222218",
-        "vim.helix_normal.background": "#22222218",
-        "vim.visual.background": "#296aa34D",
-        "vim.visual_line.background": "#296aa34D",
-        "vim.helix_select.background": "#296aa34D",
-        "vim.visual_block.background": "#a138654D",
-        "vim.insert.background": "#bda4374D",
-        "vim.replace.background": "#ab59594D",
+        "vim.normal.background": "#F1F0E9",
+        "vim.helix_normal.background": "#F1F0E9",
+        "vim.visual.background": "#F1F0E9",
+        "vim.visual_line.background": "#F1F0E9",
+        "vim.helix_select.background": "#F1F0E9",
+        "vim.visual_block.background": "#F1F0E9",
+        "vim.insert.background": "#F1F0E9",
+        "vim.replace.background": "#F1F0E9",
         "terminal.background": "#F1F0E9",
         "terminal.foreground": "#393a34",
         "terminal.bright_foreground": "#393a34",
@@ -3109,7 +3159,7 @@
         "ignored.background": "#393a34504D",
         "ignored.border": "#393a3450",
         "info": "#296aa3",
-        "info.background": "#296aa34D",
+        "info.background": "#22222218",
         "info.border": "#296aa3",
         "modified": "#296aa3",
         "modified.background": "#296aa34D",
@@ -3159,11 +3209,6 @@
             "selection": "#1e754f4D"
           },
           {
-            "cursor": "#ab5959",
-            "background": "#ab5959",
-            "selection": "#ab59594D"
-          },
-          {
             "cursor": "#2993a3",
             "background": "#2993a3",
             "selection": "#2993a34D"
@@ -3177,6 +3222,11 @@
             "cursor": "#a13865",
             "background": "#a13865",
             "selection": "#a138654D"
+          },
+          {
+            "cursor": "#ab5959",
+            "background": "#ab5959",
+            "selection": "#ab59594D"
           }
         ],
         "syntax": {
@@ -3505,6 +3555,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "property.json_key": {
+            "color": "#998418",
+            "font_style": null,
+            "font_weight": null
+          },
           "punctuation": {
             "color": "#999999",
             "font_style": null,
@@ -3516,6 +3571,11 @@
             "font_weight": null
           },
           "punctuation.delimiter": {
+            "color": "#999999",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
             "color": "#999999",
             "font_style": null,
             "font_weight": null
