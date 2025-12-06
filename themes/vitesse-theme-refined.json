@@ -7,6 +7,13 @@
       "name": "Vitesse Refined Dark",
       "appearance": "dark",
       "style": {
+        "accents": [
+          "#5eaab5",
+          "#4d9375",
+          "#d4976c",
+          "#d9739f",
+          "#e6cc77"
+        ],
         "background.appearance": "opaque",
         "border": "#191919",
         "border.variant": "#191919",
@@ -25,7 +32,7 @@
         "element.selection_background": "#dbd7caee4D",
         "drop_target.background": "#eeeeee10",
         "drop_target.border": "#4d9375",
-        "ghost_element.background": "#121212",
+        "ghost_element.background": null,
         "ghost_element.hover": "#dedcd510",
         "ghost_element.active": "#eeeeee10",
         "ghost_element.selected": "#eeeeee10",
@@ -760,6 +767,13 @@
       "name": "Vitesse Refined Black",
       "appearance": "dark",
       "style": {
+        "accents": [
+          "#5eaab5",
+          "#4d9375",
+          "#d4976c",
+          "#d9739f",
+          "#e6cc77"
+        ],
         "background.appearance": "opaque",
         "border": "#191919",
         "border.variant": "#191919",
@@ -778,7 +792,7 @@
         "element.selection_background": "#dbd7cacc4D",
         "drop_target.background": "#eeeeee10",
         "drop_target.border": "#4d9375",
-        "ghost_element.background": "#000",
+        "ghost_element.background": null,
         "ghost_element.hover": "#dedcd510",
         "ghost_element.active": "#eeeeee10",
         "ghost_element.selected": "#eeeeee10",
@@ -1513,6 +1527,13 @@
       "name": "Vitesse Refined Light",
       "appearance": "light",
       "style": {
+        "accents": [
+          "#2993a3",
+          "#1e754f",
+          "#a65e2b",
+          "#a13865",
+          "#bda437"
+        ],
         "background.appearance": "opaque",
         "border": "#f0f0f0",
         "border.variant": "#f0f0f0",
@@ -1531,7 +1552,7 @@
         "element.selection_background": "#393a344D",
         "drop_target.background": "#22222210",
         "drop_target.border": "#1c6b48",
-        "ghost_element.background": "#ffffff",
+        "ghost_element.background": null,
         "ghost_element.hover": "#393a3410",
         "ghost_element.active": "#22222210",
         "ghost_element.selected": "#22222210",
@@ -2266,6 +2287,13 @@
       "name": "Vitesse Refined Dark Soft",
       "appearance": "dark",
       "style": {
+        "accents": [
+          "#5eaab5",
+          "#4d9375",
+          "#d4976c",
+          "#d9739f",
+          "#e6cc77"
+        ],
         "background.appearance": "opaque",
         "border": "#252525",
         "border.variant": "#252525",
@@ -2284,7 +2312,7 @@
         "element.selection_background": "#dbd7caee4D",
         "drop_target.background": "#eeeeee10",
         "drop_target.border": "#4d9375",
-        "ghost_element.background": "#222",
+        "ghost_element.background": null,
         "ghost_element.hover": "#dedcd510",
         "ghost_element.active": "#eeeeee10",
         "ghost_element.selected": "#eeeeee10",
@@ -3019,6 +3047,13 @@
       "name": "Vitesse Refined Light Soft",
       "appearance": "light",
       "style": {
+        "accents": [
+          "#2993a3",
+          "#1e754f",
+          "#a65e2b",
+          "#a13865",
+          "#bda437"
+        ],
         "background.appearance": "opaque",
         "border": "#E7E5DB",
         "border.variant": "#E7E5DB",
@@ -3037,7 +3072,7 @@
         "element.selection_background": "#393a344D",
         "drop_target.background": "#22222210",
         "drop_target.border": "#1c6b48",
-        "ghost_element.background": "#F1F0E9",
+        "ghost_element.background": null,
         "ghost_element.hover": "#393a3410",
         "ghost_element.active": "#22222210",
         "ghost_element.selected": "#22222210",

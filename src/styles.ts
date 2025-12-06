@@ -5,6 +5,7 @@ type StyleArgs = ['dark' | 'light'] | ['dark' | 'light', 'soft' | 'black'];
 export function getStyle(...args: StyleArgs) {
 	const color = colorGetter(...args);
 	return {
+		accents: [color('cyan'), color('green'), color('orange'), color('magenta'), color('yellow')],
 		'background.appearance': 'opaque',
 		border: color('border'),
 		'border.variant': color('border'),
@@ -23,7 +24,7 @@ export function getStyle(...args: StyleArgs) {
 		'element.selection_background': color('foreground', 'semi-transparent'),
 		'drop_target.background': color('selectionBackgroundInActive'),
 		'drop_target.border': color('primary'),
-		'ghost_element.background': color('background'),
+		'ghost_element.background': null,
 		'ghost_element.hover': color('faded'),
 		'ghost_element.active': color('selectionBackgroundInActive'),
 		'ghost_element.selected': color('selectionBackgroundInActive'),
