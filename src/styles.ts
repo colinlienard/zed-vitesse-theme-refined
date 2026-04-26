@@ -49,7 +49,7 @@ export function getStyle(...args: StyleArgs) {
 		'search.match_background': color('activeBackground'),
 		'search.active_match_background': color('selectionBackground'),
 		'panel.background': color('background'),
-		'panel.focused_border': color('ignored'),
+		'panel.focused_border': color('ignored'), // Split diff squares color
 		'panel.indent_guide': color('activeBackground'),
 		'panel.indent_guide_active': color('selectionBackground'),
 		'panel.indent_guide_hover': color('selectionBackground'),
@@ -99,6 +99,14 @@ export function getStyle(...args: StyleArgs) {
 		'vim.visual_block.background': color('background'),
 		'vim.insert.background': color('background'),
 		'vim.replace.background': color('background'),
+		'vim.normal.foreground': color('foreground'),
+		'vim.insert.foreground': color('foreground'),
+		'vim.replace.foreground': color('foreground'),
+		'vim.visual.foreground': color('foreground'),
+		'vim.visual_line.foreground': color('foreground'),
+		'vim.visual_block.foreground': color('foreground'),
+		'vim.helix_normal.foreground': color('foreground'),
+		'vim.helix_select.foreground': color('foreground'),
 
 		'terminal.background': color('background'),
 		'terminal.foreground': color('foreground'),
@@ -233,14 +241,6 @@ export function getStyle(...args: StyleArgs) {
 			'character.special': syntax(color('foreground')),
 			comment: syntax(color('comment')),
 			'comment.doc': syntax(color('comment')),
-			'comment.documentation': syntax(color('comment')),
-			'comment.error': syntax(color('red')),
-			'comment.hint': syntax(color('blue')),
-			'comment.info': syntax(color('cyan')),
-			'comment.note': syntax(color('yellow')),
-			'comment.todo': syntax(color('cyan')),
-			'comment.warn': syntax(color('orange')),
-			'comment.warning': syntax(color('orange')),
 			concept: syntax(color('foreground')),
 			constant: syntax(color('variable')),
 			'constant.builtin': syntax(color('red')),
@@ -280,7 +280,7 @@ export function getStyle(...args: StyleArgs) {
 			'keyword.repeat': syntax(color('keyword')),
 			'keyword.return': syntax(color('keyword')),
 			'keyword.type': syntax(color('type')),
-			label: syntax(color('foreground')),
+			label: syntax(color('function')),
 			link_text: syntax(color('string')),
 			link_uri: syntax(color('comment')),
 			module: syntax(color('foreground')),
@@ -337,6 +337,12 @@ export function getStyle(...args: StyleArgs) {
 			'variable.parameter': syntax(color('variable')),
 			'variable.special': syntax(color('constant')),
 			variant: syntax(color('variable')),
+
+			// Support for the `comment` extension
+			'constant.comment.todo': syntax(color('cyan')), // TODO: an example text
+			'string.comment.info': syntax(color('blue')), // INFO: an example text
+			'keyword.comment.warn': syntax(color('orange')), // WARN: an example text
+			'property.comment.error': syntax(color('red')), // ERROR: an example text
 		},
 	};
 }
