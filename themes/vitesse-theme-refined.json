@@ -104,6 +104,14 @@
         "vim.visual_block.background": "#121212",
         "vim.insert.background": "#121212",
         "vim.replace.background": "#121212",
+        "vim.normal.foreground": "#dbd7caee",
+        "vim.insert.foreground": "#dbd7caee",
+        "vim.replace.foreground": "#dbd7caee",
+        "vim.visual.foreground": "#dbd7caee",
+        "vim.visual_line.foreground": "#dbd7caee",
+        "vim.visual_block.foreground": "#dbd7caee",
+        "vim.helix_normal.foreground": "#dbd7caee",
+        "vim.helix_select.foreground": "#dbd7caee",
         "terminal.background": "#121212",
         "terminal.foreground": "#dbd7caee",
         "terminal.bright_foreground": "#dbd7caee",
@@ -258,46 +266,6 @@
             "font_style": null,
             "font_weight": null
           },
-          "comment.documentation": {
-            "color": "#758575dd",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.error": {
-            "color": "#cb7676",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.hint": {
-            "color": "#6394bf",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.info": {
-            "color": "#5eaab5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.note": {
-            "color": "#e6cc77",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.todo": {
-            "color": "#5eaab5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warn": {
-            "color": "#d4976c",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warning": {
-            "color": "#d4976c",
-            "font_style": null,
-            "font_weight": null
-          },
           "concept": {
             "color": "#dbd7caee",
             "font_style": null,
@@ -489,7 +457,7 @@
             "font_weight": null
           },
           "label": {
-            "color": "#dbd7caee",
+            "color": "#80a665",
             "font_style": null,
             "font_weight": null
           },
@@ -772,6 +740,26 @@
             "color": "#bd976a",
             "font_style": null,
             "font_weight": null
+          },
+          "constant.comment.todo": {
+            "color": "#5eaab5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.comment.info": {
+            "color": "#6394bf",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword.comment.warn": {
+            "color": "#d4976c",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.comment.error": {
+            "color": "#cb7676",
+            "font_style": null,
+            "font_weight": null
           }
         }
       }
@@ -877,6 +865,14 @@
         "vim.visual_block.background": "#000",
         "vim.insert.background": "#000",
         "vim.replace.background": "#000",
+        "vim.normal.foreground": "#dbd7cacc",
+        "vim.insert.foreground": "#dbd7cacc",
+        "vim.replace.foreground": "#dbd7cacc",
+        "vim.visual.foreground": "#dbd7cacc",
+        "vim.visual_line.foreground": "#dbd7cacc",
+        "vim.visual_block.foreground": "#dbd7cacc",
+        "vim.helix_normal.foreground": "#dbd7cacc",
+        "vim.helix_select.foreground": "#dbd7cacc",
         "terminal.background": "#000",
         "terminal.foreground": "#dbd7cacc",
         "terminal.bright_foreground": "#dbd7cacc",
@@ -1031,46 +1027,6 @@
             "font_style": null,
             "font_weight": null
           },
-          "comment.documentation": {
-            "color": "#758575dd",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.error": {
-            "color": "#cb7676",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.hint": {
-            "color": "#6394bf",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.info": {
-            "color": "#5eaab5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.note": {
-            "color": "#e6cc77",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.todo": {
-            "color": "#5eaab5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warn": {
-            "color": "#d4976c",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warning": {
-            "color": "#d4976c",
-            "font_style": null,
-            "font_weight": null
-          },
           "concept": {
             "color": "#dbd7cacc",
             "font_style": null,
@@ -1262,7 +1218,7 @@
             "font_weight": null
           },
           "label": {
-            "color": "#dbd7cacc",
+            "color": "#80a665",
             "font_style": null,
             "font_weight": null
           },
@@ -1545,6 +1501,26 @@
             "color": "#bd976a",
             "font_style": null,
             "font_weight": null
+          },
+          "constant.comment.todo": {
+            "color": "#5eaab5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.comment.info": {
+            "color": "#6394bf",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword.comment.warn": {
+            "color": "#d4976c",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.comment.error": {
+            "color": "#cb7676",
+            "font_style": null,
+            "font_weight": null
           }
         }
       }
@@ -1650,6 +1626,14 @@
         "vim.visual_block.background": "#ffffff",
         "vim.insert.background": "#ffffff",
         "vim.replace.background": "#ffffff",
+        "vim.normal.foreground": "#393a34",
+        "vim.insert.foreground": "#393a34",
+        "vim.replace.foreground": "#393a34",
+        "vim.visual.foreground": "#393a34",
+        "vim.visual_line.foreground": "#393a34",
+        "vim.visual_block.foreground": "#393a34",
+        "vim.helix_normal.foreground": "#393a34",
+        "vim.helix_select.foreground": "#393a34",
         "terminal.background": "#ffffff",
         "terminal.foreground": "#393a34",
         "terminal.bright_foreground": "#393a34",
@@ -1804,46 +1788,6 @@
             "font_style": null,
             "font_weight": null
           },
-          "comment.documentation": {
-            "color": "#a0ada0",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.error": {
-            "color": "#ab5959",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.hint": {
-            "color": "#296aa3",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.info": {
-            "color": "#2993a3",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.note": {
-            "color": "#bda437",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.todo": {
-            "color": "#2993a3",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warn": {
-            "color": "#a65e2b",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warning": {
-            "color": "#a65e2b",
-            "font_style": null,
-            "font_weight": null
-          },
           "concept": {
             "color": "#393a34",
             "font_style": null,
@@ -2035,7 +1979,7 @@
             "font_weight": null
           },
           "label": {
-            "color": "#393a34",
+            "color": "#59873a",
             "font_style": null,
             "font_weight": null
           },
@@ -2318,6 +2262,26 @@
             "color": "#b07d48",
             "font_style": null,
             "font_weight": null
+          },
+          "constant.comment.todo": {
+            "color": "#2993a3",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.comment.info": {
+            "color": "#296aa3",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword.comment.warn": {
+            "color": "#a65e2b",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.comment.error": {
+            "color": "#ab5959",
+            "font_style": null,
+            "font_weight": null
           }
         }
       }
@@ -2423,6 +2387,14 @@
         "vim.visual_block.background": "#222",
         "vim.insert.background": "#222",
         "vim.replace.background": "#222",
+        "vim.normal.foreground": "#dbd7caee",
+        "vim.insert.foreground": "#dbd7caee",
+        "vim.replace.foreground": "#dbd7caee",
+        "vim.visual.foreground": "#dbd7caee",
+        "vim.visual_line.foreground": "#dbd7caee",
+        "vim.visual_block.foreground": "#dbd7caee",
+        "vim.helix_normal.foreground": "#dbd7caee",
+        "vim.helix_select.foreground": "#dbd7caee",
         "terminal.background": "#222",
         "terminal.foreground": "#dbd7caee",
         "terminal.bright_foreground": "#dbd7caee",
@@ -2574,46 +2546,6 @@
           },
           "comment.doc": {
             "color": "#758575dd",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.documentation": {
-            "color": "#758575dd",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.error": {
-            "color": "#cb7676",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.hint": {
-            "color": "#6394bf",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.info": {
-            "color": "#5eaab5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.note": {
-            "color": "#e6cc77",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.todo": {
-            "color": "#5eaab5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warn": {
-            "color": "#d4976c",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warning": {
-            "color": "#d4976c",
             "font_style": null,
             "font_weight": null
           },
@@ -2808,7 +2740,7 @@
             "font_weight": null
           },
           "label": {
-            "color": "#dbd7caee",
+            "color": "#80a665",
             "font_style": null,
             "font_weight": null
           },
@@ -3091,6 +3023,26 @@
             "color": "#bd976a",
             "font_style": null,
             "font_weight": null
+          },
+          "constant.comment.todo": {
+            "color": "#5eaab5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.comment.info": {
+            "color": "#6394bf",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword.comment.warn": {
+            "color": "#d4976c",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.comment.error": {
+            "color": "#cb7676",
+            "font_style": null,
+            "font_weight": null
           }
         }
       }
@@ -3196,6 +3148,14 @@
         "vim.visual_block.background": "#F1F0E9",
         "vim.insert.background": "#F1F0E9",
         "vim.replace.background": "#F1F0E9",
+        "vim.normal.foreground": "#393a34",
+        "vim.insert.foreground": "#393a34",
+        "vim.replace.foreground": "#393a34",
+        "vim.visual.foreground": "#393a34",
+        "vim.visual_line.foreground": "#393a34",
+        "vim.visual_block.foreground": "#393a34",
+        "vim.helix_normal.foreground": "#393a34",
+        "vim.helix_select.foreground": "#393a34",
         "terminal.background": "#F1F0E9",
         "terminal.foreground": "#393a34",
         "terminal.bright_foreground": "#393a34",
@@ -3347,46 +3307,6 @@
           },
           "comment.doc": {
             "color": "#a0ada0",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.documentation": {
-            "color": "#a0ada0",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.error": {
-            "color": "#ab5959",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.hint": {
-            "color": "#296aa3",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.info": {
-            "color": "#2993a3",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.note": {
-            "color": "#bda437",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.todo": {
-            "color": "#2993a3",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warn": {
-            "color": "#a65e2b",
-            "font_style": null,
-            "font_weight": null
-          },
-          "comment.warning": {
-            "color": "#a65e2b",
             "font_style": null,
             "font_weight": null
           },
@@ -3581,7 +3501,7 @@
             "font_weight": null
           },
           "label": {
-            "color": "#393a34",
+            "color": "#59873a",
             "font_style": null,
             "font_weight": null
           },
@@ -3862,6 +3782,26 @@
           },
           "variant": {
             "color": "#b07d48",
+            "font_style": null,
+            "font_weight": null
+          },
+          "constant.comment.todo": {
+            "color": "#2993a3",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.comment.info": {
+            "color": "#296aa3",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword.comment.warn": {
+            "color": "#a65e2b",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.comment.error": {
+            "color": "#ab5959",
             "font_style": null,
             "font_weight": null
           }
