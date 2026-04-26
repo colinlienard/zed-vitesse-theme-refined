@@ -3,6 +3,7 @@
 # Zed Vitesse Theme Refined
 
 ![Version](https://badgen.net/github/release/colinlienard/zed-vitesse-theme-refined)
+[![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.zed.dev%2Fextensions%2Fvitesse-theme-refined&query=%24.data%5B0%5D.download_count&label=downloads&cacheSeconds=60)](https://zed.dev/extensions/vitesse-theme-refined)
 
 </div>
 
