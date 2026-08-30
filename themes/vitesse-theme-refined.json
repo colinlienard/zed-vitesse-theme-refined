@@ -322,7 +322,7 @@
             "font_weight": 700
           },
           "enum": {
-            "color": "#dbd7caee",
+            "color": "#5d99a9",
             "font_style": null,
             "font_weight": null
           },
@@ -368,6 +368,11 @@
           },
           "function.method.call": {
             "color": "#80a665",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function.special.definition": {
+            "color": "foreground",
             "font_style": null,
             "font_weight": null
           },
@@ -472,7 +477,7 @@
             "font_weight": null
           },
           "module": {
-            "color": "#dbd7caee",
+            "color": "#bd976a",
             "font_style": null,
             "font_weight": null
           },
@@ -487,7 +492,7 @@
             "font_weight": null
           },
           "number.float": {
-            "color": "#dbd7caee",
+            "color": "#4C9A91",
             "font_style": null,
             "font_weight": null
           },
@@ -517,7 +522,7 @@
             "font_weight": null
           },
           "preproc": {
-            "color": "#dbd7caee",
+            "color": "#db889a",
             "font_style": null,
             "font_weight": null
           },
@@ -1083,7 +1088,7 @@
             "font_weight": 700
           },
           "enum": {
-            "color": "#dbd7cacc",
+            "color": "#5d99a9",
             "font_style": null,
             "font_weight": null
           },
@@ -1129,6 +1134,11 @@
           },
           "function.method.call": {
             "color": "#80a665",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function.special.definition": {
+            "color": "foreground",
             "font_style": null,
             "font_weight": null
           },
@@ -1233,7 +1243,7 @@
             "font_weight": null
           },
           "module": {
-            "color": "#dbd7cacc",
+            "color": "#bd976a",
             "font_style": null,
             "font_weight": null
           },
@@ -1248,7 +1258,7 @@
             "font_weight": null
           },
           "number.float": {
-            "color": "#dbd7cacc",
+            "color": "#4C9A91",
             "font_style": null,
             "font_weight": null
           },
@@ -1278,7 +1288,7 @@
             "font_weight": null
           },
           "preproc": {
-            "color": "#dbd7cacc",
+            "color": "#db889a",
             "font_style": null,
             "font_weight": null
           },
@@ -1844,7 +1854,7 @@
             "font_weight": 700
           },
           "enum": {
-            "color": "#393a34",
+            "color": "#2e808f",
             "font_style": null,
             "font_weight": null
           },
@@ -1890,6 +1900,11 @@
           },
           "function.method.call": {
             "color": "#59873a",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function.special.definition": {
+            "color": "foreground",
             "font_style": null,
             "font_weight": null
           },
@@ -1994,7 +2009,7 @@
             "font_weight": null
           },
           "module": {
-            "color": "#393a34",
+            "color": "#b07d48",
             "font_style": null,
             "font_weight": null
           },
@@ -2009,7 +2024,7 @@
             "font_weight": null
           },
           "number.float": {
-            "color": "#393a34",
+            "color": "#2f798a",
             "font_style": null,
             "font_weight": null
           },
@@ -2039,7 +2054,7 @@
             "font_weight": null
           },
           "preproc": {
-            "color": "#393a34",
+            "color": "#b05a78",
             "font_style": null,
             "font_weight": null
           },
@@ -2605,7 +2620,7 @@
             "font_weight": 700
           },
           "enum": {
-            "color": "#dbd7caee",
+            "color": "#5d99a9",
             "font_style": null,
             "font_weight": null
           },
@@ -2651,6 +2666,11 @@
           },
           "function.method.call": {
             "color": "#80a665",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function.special.definition": {
+            "color": "foreground",
             "font_style": null,
             "font_weight": null
           },
@@ -2755,7 +2775,7 @@
             "font_weight": null
           },
           "module": {
-            "color": "#dbd7caee",
+            "color": "#bd976a",
             "font_style": null,
             "font_weight": null
           },
@@ -2770,7 +2790,7 @@
             "font_weight": null
           },
           "number.float": {
-            "color": "#dbd7caee",
+            "color": "#4C9A91",
             "font_style": null,
             "font_weight": null
           },
@@ -2800,7 +2820,7 @@
             "font_weight": null
           },
           "preproc": {
-            "color": "#dbd7caee",
+            "color": "#db889a",
             "font_style": null,
             "font_weight": null
           },
@@ -3366,7 +3386,7 @@
             "font_weight": 700
           },
           "enum": {
-            "color": "#393a34",
+            "color": "#2e808f",
             "font_style": null,
             "font_weight": null
           },
@@ -3412,6 +3432,11 @@
           },
           "function.method.call": {
             "color": "#59873a",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function.special.definition": {
+            "color": "foreground",
             "font_style": null,
             "font_weight": null
           },
@@ -3516,7 +3541,7 @@
             "font_weight": null
           },
           "module": {
-            "color": "#393a34",
+            "color": "#b07d48",
             "font_style": null,
             "font_weight": null
           },
@@ -3531,7 +3556,7 @@
             "font_weight": null
           },
           "number.float": {
-            "color": "#393a34",
+            "color": "#2f798a",
             "font_style": null,
             "font_weight": null
           },
@@ -3561,7 +3586,7 @@
             "font_weight": null
           },
           "preproc": {
-            "color": "#393a34",
+            "color": "#b05a78",
             "font_style": null,
             "font_weight": null
           },
